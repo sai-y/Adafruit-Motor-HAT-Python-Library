@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+from __future__ import print_function
 import time
 import math
 from .Adafruit_I2C import Adafruit_I2C
