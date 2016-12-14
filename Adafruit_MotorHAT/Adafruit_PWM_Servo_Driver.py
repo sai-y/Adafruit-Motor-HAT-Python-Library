@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
+from __future__ import print_function
 import time
 import math
 from Adafruit_I2C import Adafruit_I2C
-from __future__ import print_function
 
 # ============================================================================
 # Adafruit PCA9685 16-Channel PWM Servo Driver
