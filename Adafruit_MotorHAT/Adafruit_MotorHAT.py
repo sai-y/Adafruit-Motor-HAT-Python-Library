@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 
+from __future__ import print_function
 from Adafruit_PWM_Servo_Driver import PWM
 import time
-from __future__ import print_function
-
 
 class Adafruit_StepperMotor:
     MICROSTEPS = 8
