@@ -1,7 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/python3
+from __future__ import print_function
 import re
 import smbus
-from __future__ import print_function
 
 # ===========================================================================
 # Adafruit_I2C Class
