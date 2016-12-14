@@ -1,7 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 from Adafruit_PWM_Servo_Driver import PWM
 import time
+from __future__ import print_function
+
 
 class Adafruit_StepperMotor:
     MICROSTEPS = 8
@@ -152,7 +154,7 @@ class Adafruit_StepperMotor:
             s_per_s /= self.MICROSTEPS
             steps *= self.MICROSTEPS
 
-        print s_per_s, " sec per step"
+        print(s_per_s, " sec per step")
 
         for s in range(steps):
             lateststep = self.oneStep(direction, stepstyle)
